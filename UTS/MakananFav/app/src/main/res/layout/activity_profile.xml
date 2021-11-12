@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mainLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/fotoWarung"
+        android:layout_width="452dp"
+        android:layout_height="237dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.411"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/burjo" />
+
+    <TextView
+        android:id="@+id/txtTelp"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/no_telp"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/telpIco"
+        app:layout_constraintTop_toBottomOf="@+id/txtAlmt" />
+
+    <TextView
+        android:id="@+id/txtOpen"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="17dp"
+        android:text="@string/open_hours"
+        android:textAlignment="viewStart"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/openHoursIco"
+        app:layout_constraintTop_toBottomOf="@+id/fotoWarung" />
+
+    <ImageView
+        android:id="@+id/openHoursIco"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fotoWarung"
+        app:srcCompat="@drawable/openhours" />
+
+    <ImageView
+        android:id="@+id/placeIco"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/openHoursIco"
+        app:srcCompat="@drawable/place" />
+
+    <ImageView
+        android:id="@+id/telpIco"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/placeIco"
+        app:srcCompat="@drawable/telephone" />
+
+    <TextView
+        android:id="@+id/txtAlmt"
+        android:layout_width="260dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/almt_warung"
+        android:textSize="27dp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/placeIco"
+        app:layout_constraintTop_toBottomOf="@+id/txtOpen" />
+
+    <Button
+        android:id="@+id/btn_menu"
+        android:layout_width="193dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="100dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="36dp"
+        android:text="Menu"
+        android:textSize="27dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Makanan Biasa</string>
+
+    <string name="almt_warung">Kota Semarang, Jawa Tengah</string>
+    <string name="open_hours">Senin-Jumat pukul 05.00-03.00</string>
+    <string name="no_telp">+62123456789</string>
+
+    <string-array name="makanan_favorit">
+        <item>Nasi Rames</item>
+        <item>Nasi Telur</item>
+        <item>Nasi Ayam</item>
+        <item>Nasi Goreng Telur</item>
+        <item>Nasi Goreng Ayam</item>
+        <item>Es/Panas Teh</item>
+    </string-array>
+
+    <string-array name="harga">
+        <item>Rp. 8.000</item>
+        <item>Rp. 7.000</item>
+        <item>Rp. 10.000</item>
+        <item>Rp. 12.000</item>
+        <item>Rp. 15.000</item>
+        <item>Rp. 5.000</item>
+    </string-array>
+
+    <string-array name="deskripsi">
+        <item>Nasi campur adalah masakan khas Indonesia. Makanan ini terdiri dari nasi putih yang dihidangkan dengan bermacam-macam lauk-pauk. Lauk yang digunakan adalah sambal goreng, abon, serundeng, tahu goreng, ikan goreng, telur dan lain-lain.</item>
+        <item>Nasi telur adalah masakan rumahan. Makanan ini terdiri dari nasi putih yang dihidangkan dengan telur</item>
+        <item>Nasi ayam adalah masakan rumahan. Makanan ini terdiri dari nasi putih yang dihidangkan dengan ayam</item>
+        <item>Nasi goreng telur adalah sebuah makanan berupa nasi yang digoreng dan diaduk dalam minyak goreng, margarin, atau mentega. Biasanya ditambah kecap manis, bawang merah, bawang putih, asam jawa, lada dan bumbu-bumbu lainnya, seperti telur dan kerupuk.</item>
+        <item>Nasi goreng ayam adalah sebuah makanan berupa nasi yang digoreng dan diaduk dalam minyak goreng, margarin, atau mentega. Biasanya ditambah kecap manis, bawang merah, bawang putih, asam jawa, lada dan bumbu-bumbu lainnya, seperti ayam dan kerupuk.</item>
+        <item> Es/panas Teh adalah teh yang didinginkan dengan es batu atau teh panas yang masih panas lalu dihidangkan.</item>
+    </string-array>
+</resources>
