@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "63932867397",
+    "project_id": "flutterapp-5aec5",
+    "storage_bucket": "flutterapp-5aec5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:63932867397:android:49fd9e620b6379c8bb142c",
+        "android_client_info": {
+          "package_name": "com.example.record_keuangan"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "63932867397-qqq3jppmq5d8365bc8a42nocr5oumtv9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuzUSfrEEK_akwqGNfs1p3N4UaZ8rdilY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "63932867397-qqq3jppmq5d8365bc8a42nocr5oumtv9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

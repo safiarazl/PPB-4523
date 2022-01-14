@@ -10,9 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MakananFav">
         <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
             android:name=".MainActivity"
-            android:label="Menu"
-            android:exported="true" />
+            android:exported="true"
+            android:label="Menu" />
         <activity
             android:name=".MainActivity2"
             android:exported="true"
